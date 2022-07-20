@@ -4,11 +4,60 @@ body{
 	font: normal Arial, Helvetica, sans-serif, 16px;
 	line-height: 1.5em;
 }
+a{
+	text-decoration:none ;
+	color: #000;
+}
+a:hover{
+	color: beige;
+}
+a:active{
+	color: green;
+}
+a:visited{
+	color: black;
+}
 .container{
-	width: 500px;
+	width: 80%;
 	margin: auto;
+
 }
 .box-1{
 	background-color: #333;
 	color: #fff;
+	border: 5px red solid;
+	padding: 20px;
+	margin: 20px 0;
+}
+
+
+.box-1 h1{
+	font-family: Tahoma;
+	font-size: 800;
+	font-style: italic;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+}
+
+
+.box-2{
+	border: 3px dotted #ccc;
+	padding: 20px;
+	margin: 20px 0;
+}
+.cate{
+	border: 1px #ccc solid;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+.cate h2{
+	text-align: center;
+}
+
+.cate ul{
+	padding: 0;
+	list-style: square;
+	list-style: none;
 }
