@@ -9,17 +9,18 @@ button{
 color: #fff;
 padding: 10px 15px;
 border: none;
+border-radius: 22.5px;
 }
 a{
 text-decoration:none ;
 color: #000;
 }
-a:hover{
-color: beige;
+button:hover{
+background: red;
+color: hsl(60.0, 55.6%, 91.2%);
+transition: 1.5s;
 }
-a:active{
-color: green;
-}
+
 a:visited{
 color: black;
 }
@@ -112,4 +113,13 @@ border: none;
 	width: 33%;
 	border: 0.5px solid;
 	padding: 1px;
+}
+
+#sec{
+	float: left;
+	width: 70%;
+}
+#side-bar{
+	float: right;
+	width: 30%;;
 }
